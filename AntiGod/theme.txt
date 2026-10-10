@@ -1,4 +1,5 @@
 title-text: ""
+desktop-image: "AntiGod-Bg.png"
 desktop-color: "#000000"
 terminal-font: "flex 16"
 terminal-left: "0"
@@ -8,17 +9,17 @@ terminal-height: "100%"
 terminal-border: "0"
 
 + boot_menu {
-    top = 30%
-    left = 30%
-    width = 45%
-    height = 60%
+    top = 33%
+    left = 36%
+    width = 59%
+    height = 63%
     item_font = "flex 16"
     item_color = "#cccccc"
-    selected_item_color = "#ffffff"
-    icon_width = 64
-    icon_height = 64
+    selected_item_color = "red"
+    icon_width = 40
+    icon_height = 40
     item_icon_space = 8
-    item_height = 64
+    item_height = 62
     item_padding = 2
     item_spacing = 8
     selected_item_pixmap_style = "select_*.png"
@@ -26,11 +27,11 @@ terminal-border: "0"
 
 + label {
     id = "__timeout__"
-    top = 82%
-    left = 0
+    top = 28%
+    left = 24%
     width = 100%
     align = "center"
     font = "flex 14"
     color = "#cccccc"
-    text = "Booting in %d seconds"
+    text = "The deities will let you boot in %d seconds"
 }
