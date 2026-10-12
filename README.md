@@ -32,4 +32,4 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 
-3. Reboot your system to see your new grub !
+3. Reboot your system to see your new new GRUB theme!
